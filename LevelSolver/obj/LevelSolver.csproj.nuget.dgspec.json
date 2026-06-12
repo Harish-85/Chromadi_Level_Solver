@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/harish/RiderProjects/LevelSolver/LevelSolver/LevelSolver.csproj": {}
+    "/home/harish/MyStuff/Projects/Unity/Work/LevelSolver/LevelSolver/LevelSolver.csproj": {}
   },
   "projects": {
-    "/home/harish/RiderProjects/LevelSolver/LevelSolver/LevelSolver.csproj": {
+    "/home/harish/MyStuff/Projects/Unity/Work/LevelSolver/LevelSolver/LevelSolver.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/harish/RiderProjects/LevelSolver/LevelSolver/LevelSolver.csproj",
+        "projectUniqueName": "/home/harish/MyStuff/Projects/Unity/Work/LevelSolver/LevelSolver/LevelSolver.csproj",
         "projectName": "LevelSolver",
-        "projectPath": "/home/harish/RiderProjects/LevelSolver/LevelSolver/LevelSolver.csproj",
+        "projectPath": "/home/harish/MyStuff/Projects/Unity/Work/LevelSolver/LevelSolver/LevelSolver.csproj",
         "packagesPath": "/home/harish/.nuget/packages/",
-        "outputPath": "/home/harish/RiderProjects/LevelSolver/LevelSolver/obj/",
+        "outputPath": "/home/harish/MyStuff/Projects/Unity/Work/LevelSolver/LevelSolver/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/harish/.nuget/NuGet/NuGet.Config"

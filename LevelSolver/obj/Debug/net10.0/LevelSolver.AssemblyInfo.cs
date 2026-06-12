@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LevelSolver")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+923c13f5cb060e13315872bc09359109389c8a19")]
 [assembly: System.Reflection.AssemblyProductAttribute("LevelSolver")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LevelSolver")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
