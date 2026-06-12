@@ -1,0 +1,17 @@
+/home/harish/RiderProjects/LevelSolver/LevelSolver/bin/Debug/net10.0/LevelSolver
+/home/harish/RiderProjects/LevelSolver/LevelSolver/bin/Debug/net10.0/LevelSolver.deps.json
+/home/harish/RiderProjects/LevelSolver/LevelSolver/bin/Debug/net10.0/LevelSolver.runtimeconfig.json
+/home/harish/RiderProjects/LevelSolver/LevelSolver/bin/Debug/net10.0/LevelSolver.dll
+/home/harish/RiderProjects/LevelSolver/LevelSolver/bin/Debug/net10.0/LevelSolver.pdb
+/home/harish/RiderProjects/LevelSolver/LevelSolver/bin/Debug/net10.0/Newtonsoft.Json.dll
+/home/harish/RiderProjects/LevelSolver/LevelSolver/obj/Debug/net10.0/LevelSolver.csproj.AssemblyReference.cache
+/home/harish/RiderProjects/LevelSolver/LevelSolver/obj/Debug/net10.0/LevelSolver.GeneratedMSBuildEditorConfig.editorconfig
+/home/harish/RiderProjects/LevelSolver/LevelSolver/obj/Debug/net10.0/LevelSolver.AssemblyInfoInputs.cache
+/home/harish/RiderProjects/LevelSolver/LevelSolver/obj/Debug/net10.0/LevelSolver.AssemblyInfo.cs
+/home/harish/RiderProjects/LevelSolver/LevelSolver/obj/Debug/net10.0/LevelSolver.csproj.CoreCompileInputs.cache
+/home/harish/RiderProjects/LevelSolver/LevelSolver/obj/Debug/net10.0/LevelSol.D4027E0E.Up2Date
+/home/harish/RiderProjects/LevelSolver/LevelSolver/obj/Debug/net10.0/LevelSolver.dll
+/home/harish/RiderProjects/LevelSolver/LevelSolver/obj/Debug/net10.0/refint/LevelSolver.dll
+/home/harish/RiderProjects/LevelSolver/LevelSolver/obj/Debug/net10.0/LevelSolver.pdb
+/home/harish/RiderProjects/LevelSolver/LevelSolver/obj/Debug/net10.0/LevelSolver.genruntimeconfig.cache
+/home/harish/RiderProjects/LevelSolver/LevelSolver/obj/Debug/net10.0/ref/LevelSolver.dll

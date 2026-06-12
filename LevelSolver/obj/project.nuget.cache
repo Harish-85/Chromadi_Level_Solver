@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "wW6Zc/foAjw=",
+  "success": true,
+  "projectFilePath": "/home/harish/RiderProjects/LevelSolver/LevelSolver/LevelSolver.csproj",
+  "expectedPackageFiles": [
+    "/home/harish/.nuget/packages/newtonsoft.json/13.0.4/newtonsoft.json.13.0.4.nupkg.sha512",
+    "/home/harish/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.8/microsoft.aspnetcore.app.ref.10.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
