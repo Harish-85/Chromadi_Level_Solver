@@ -5,7 +5,7 @@ using LevelSolver;
 //Dependencies
 //ILevelDataProvider levelDataProvider = new JsonFileLevelDataProvider("testLevel.json");
 Console.WriteLine("Press Q to perform previous input list. Press anything else to go to level solver");
-ConsoleKey choice = Console.ReadKey().Key;
+ConsoleKey choice = Console.ReadKey(true).Key;
 if (choice == ConsoleKey.Q) {
     //try to load previous inputs
     if (File.Exists("last_solution.txt")) {
