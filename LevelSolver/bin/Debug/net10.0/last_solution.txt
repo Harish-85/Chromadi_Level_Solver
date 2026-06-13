@@ -1,1 +1,1 @@
-Right,Right,Right,Right,Down,Right,Down,Right,Up,Down,Right,Down,Right
+Left,Left,Up,Right,Down,Down,Left,Left,Up,Left,Left,Down,Up,Up,Up,Left,Left,Up,Left,Right,Down,Down,Right,Down,Up,Left,Left,Down,Left,Up,Up

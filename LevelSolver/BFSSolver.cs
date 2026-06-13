@@ -44,7 +44,7 @@ public class BFSSolver {
         {
             state = startState,
             g =0,
-            h = Heuristic(startState)
+            h = Heuristic(startState,sim.GetLevelData())
         };
         
         queue.Enqueue(start,start.f);
@@ -81,7 +81,7 @@ public class BFSSolver {
                    parent = current,
                    move = dir,
                    g = newG,
-                   h = Heuristic(nextState)
+                   h = Heuristic(nextState,sim.GetLevelData())
                };
 
                queue.Enqueue(node ,node.f);
@@ -89,22 +89,36 @@ public class BFSSolver {
         }
         return null;
     }
-    int Heuristic(LevelState state) {
+    int Heuristic(LevelState state, LevelData levelData) {
         
-        int alive = 0;
+        int minMovesRequired = 0;
 
-        for (int y = 0; y < state.enemydead.GetLength(1); y++) {
-            bool anyAlive = false;
-            for (int x = 0; x < state.enemydead.GetLength(0); x++) {
+        for (int x = 0; x < state.enemydead.GetLength(0); x++) {
+            
+            HashSet<GameColor> uniqueColors = new HashSet<GameColor>();
+            for (int y = 0; y < state.enemydead.GetLength(1); y++) {
                 if (!state.enemydead[x, y]) {
-                    anyAlive = true;
-                    break;
+                    var enemyInstance = levelData.enemiesToSpawn[x, y];
+
+                    if (enemyInstance.enemyType is EnemyType.ColorShifters) {
+                        uniqueColors.Add( enemyInstance.color );
+                        uniqueColors.Add( enemyInstance.secondaryColor );
+                    }
+                    else if (enemyInstance.enemyType is EnemyType.TripleColorShifter) {
+                        uniqueColors.Add( enemyInstance.color );
+                        uniqueColors.Add(enemyInstance.secondaryColor);
+                        uniqueColors.Add(enemyInstance.tertiaryColor);
+                    } else {
+                        uniqueColors.Add(enemyInstance.color);
+                    }
+
                 }
+                
             }
-            if(anyAlive) alive++;
+            minMovesRequired += uniqueColors.Count;
         }
 
-        return alive;
+        return minMovesRequired;
     }
     
 }
